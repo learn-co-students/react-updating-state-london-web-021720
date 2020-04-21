@@ -17,7 +17,7 @@ class ClickityClick extends React.Component {
 //     hasBeenClicked: true
 //   }, () => console.log(this.state.hasBeenClicked))
   //}
-// or to change stat repeatedly between true and false 
+// or to change state repeatedly between true and false 
 this.setState(previousState => {
     return {
       hasBeenClicked: !previousState.hasBeenClicked
